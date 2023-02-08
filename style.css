@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  Arial, sans-serif;
+}
+button{
+    cursor: pointer;
+}
+body{
+    background-color: #191f2a;
+}
+#nav-menu{
+    color: #8a88fa;
+    /* color: white; */
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    justify-content: space-between;
+    background-color:rgba(61, 65, 89, 0.5);
+    padding: 5vh 12vh;
+}
+
+.left-menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+/* -------------------home---------------------- */
+#home{
+    height: 76vh;
+    width: 63%;
+    margin:auto;
+    margin-top: 15%;
+    text-align: center;
+    color: #8e8ddf;
+}
+#home h1{
+    color: #9796fc;
+    font-size: 3.5rem;
+}
+#home h2{
+    color: #9796fc;
+    margin: 8vh 0;
+}
+#home p{
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* ----------------------------------about------------------------- */
+
+#about{
+    text-align: center;
+    height: auto;
+    padding: 20vh 12vh;
+    background-color: #56558d;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(#4f4f83, #695181);
+}
+#about h2{
+    font-size: 2.5rem;
+}
+#about>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+#about>div>div:nth-child(1){
+    width: 25%;
+}
+#about>div>div img{
+    width: 100%;
+    border:5px solid #191f2a;
+    border-radius: 20px;
+}
+#about>div>div:nth-child(2){
+    width: 40%;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+}
