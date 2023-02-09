@@ -18,6 +18,7 @@ body{
     display: flex;
     overflow: hidden;
     position: fixed;
+    z-index: 3;
     top: 0;
     left:0;
     right: 0;
@@ -60,18 +61,19 @@ body{
     text-align: center;
     height: auto;
     padding: 20vh 12vh;
+    color: white;
     background-color: #56558d;
     background-repeat: no-repeat;
-    background-image:linear-gradient(#4f4f83, #695181);
+    background-image:linear-gradient(#4f4f83, rgb(105, 81, 129));
 }
-#about h2{
+.section h2{
     font-size: 2.5rem;
 }
 #about>div{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 10vh;
+    margin-top: 12vh;
 }
 #about>div>div:nth-child(1){
     width: 25%;
@@ -82,8 +84,44 @@ body{
     border-radius: 20px;
 }
 #about>div>div:nth-child(2){
+    text-align: left;
     width: 40%;
     font-weight: 600;
     font-size: 1.1rem;
     color: white;
+}
+
+/* --------------------------skilss------------------ */
+#skills{
+    text-align: center;
+    height: auto;
+    padding: 20vh 12vh;
+    color: white;
+    margin: auto;
+}
+#skills>div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:10%;
+}
+#skills>div>div{
+    width: 20%;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    /* background-color: #1d1d24; */
+    background-color: #22223298;
+    box-shadow: rgba(146, 102, 189, 0.2) 0px 4px 12px;
+}
+#skills>div>div>img{
+    width: 50%;
+    height: 80%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+#skills>div>div>#cyclic{
+    height: 50%;
 }
