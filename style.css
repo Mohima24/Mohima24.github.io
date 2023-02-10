@@ -3,6 +3,10 @@
     margin: 0;
     font-family:  Arial, sans-serif;
 }
+a{
+    text-decoration: none;
+    color: #8a88fa;
+}
 button{
     cursor: pointer;
 }
@@ -11,9 +15,8 @@ body{
 }
 #nav-menu{
     color: #8a88fa;
-    /* color: white; */
     margin: auto;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 400;
     display: flex;
     overflow: hidden;
@@ -23,14 +26,38 @@ body{
     left:0;
     right: 0;
     justify-content: space-between;
+    align-items: center;
     background-color:rgba(61, 65, 89, 0.5);
-    padding: 5vh 12vh;
+    padding: 3vh 12vh;
 }
 
 .left-menu{
     width: 50%;
     display: flex;
     justify-content: space-around;
+}
+.left-menu a{
+    position: relative;
+    padding: 5px 8px;
+}
+.left-menu a::after{
+    content: "";
+    position: absolute;
+    background-color: #aeade9;
+    height: 3px;
+    width: 0;
+    left:0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+.left-menu a:hover{
+    color: #aeade9;
+}
+.left-menu a:hover::after{
+    width: 100%;
+}
+#hamburger{
+    display: none;
 }
 /* -------------------home---------------------- */
 #home{
@@ -124,4 +151,95 @@ body{
 }
 #skills>div>div>#cyclic{
     height: 50%;
+}
+
+
+
+@media screen and (min-width:700px) and (max-width:1000px){
+    #nav-menu{
+        font-size: 1.2rem;
+        justify-content: space-between;
+    }
+    .left-menu{
+        width: 70%;
+    }
+    .left-menu a{
+        padding: 5px 8px;
+    }
+    #about{
+        padding: 20vh 0;
+    }
+    #about>div>div:nth-child(2){
+        text-align: left;
+        width: 50%;
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: white;
+    }
+    #skills>div>div{
+        width: 30%;
+    }
+}
+@media screen and (min-width:701px) and (max-width:800px){
+    #nav-menu{
+        font-size: 18px;
+    }
+    .left-menu a{
+        padding: 5px 3px;
+    }
+}
+@media screen and (min-width:100px) and (max-width:700px) {
+    #home h1{
+        color: #9796fc;
+        font-size: 1.5rem;
+    }
+    .left-menu{
+        display: none;
+    }
+    #hamburger{
+        display: contents;
+    }
+    #skills>div>div{
+        width: 80%;
+        padding-bottom: 5vh;
+        margin: 5%;
+    }
+    #about{
+        padding: 15vh 12vh;
+    }
+    #about>div{
+        display: contents;
+    }
+    #about>div>div:nth-child(1){
+        width: 80%;
+    }
+    #about>div>div img{
+        width: 100%;
+    }
+    #about>div>div:nth-child(2){
+        width: 100%;
+    }
+}
+@media screen and (min-width:500px) and (max-width:700px){
+    #home h1{
+        color: #9796fc;
+        font-size: 2rem;
+    }
+    #about{
+        padding: 20vh 5vh;
+    }
+    #about>div{
+        display: flex;
+        justify-content: space-between;
+    }
+    #about>div>div:nth-child(1){
+        width: 40%;
+    }
+    #about>div>div:nth-child(2){
+        text-align: left;
+        width:50%;
+        font-weight:normal;
+        font-size: 14px;
+        color: white;
+    }
 }
