@@ -189,6 +189,9 @@ body{
     }
 }
 @media screen and (min-width:100px) and (max-width:700px) {
+    #nav-menu{
+        padding: 3vh 5vh;
+    }
     #home h1{
         color: #9796fc;
         font-size: 1.5rem;
@@ -199,25 +202,30 @@ body{
     #hamburger{
         display: contents;
     }
+    #skills{
+        padding: 20vh 2vh;
+    }
     #skills>div>div{
         width: 80%;
         padding-bottom: 5vh;
         margin: 5%;
     }
     #about{
-        padding: 15vh 12vh;
+        padding: 15vh 5vh;
     }
     #about>div{
         display: contents;
     }
     #about>div>div:nth-child(1){
-        width: 80%;
+        width: 60%;
     }
     #about>div>div img{
         width: 100%;
     }
     #about>div>div:nth-child(2){
         width: 100%;
+        font-size: 16px;
+        font-weight: normal;
     }
 }
 @media screen and (min-width:500px) and (max-width:700px){
