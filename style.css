@@ -59,7 +59,7 @@ body{
 #hamburger{
     display: none;
 }
-#resume-button-1{
+#resume-button-1,#resume-button-2{
     background-color:rgba(61, 65, 89, 0.5);
     color: #8a88fa;
     border: none;
@@ -68,12 +68,13 @@ body{
     padding: 5px 8px;
     border-radius: 7px;
 }
+
 /* -------------------home---------------------- */
 #home{
     height: 76vh;
     width: 63%;
     margin:auto;
-    margin-top: 15%;
+    margin-top: 12%;
     text-align: center;
     color: #8e8ddf;
 }
@@ -90,7 +91,30 @@ body{
     font-size: 1.1rem;
     font-weight: bold;
 }
-
+#home-contact{
+    margin: 4% 0;
+    font-size: 24px
+}
+#home-contact a{
+    position: relative;
+    padding: 5px 8px;
+}
+#home-contact a::after{
+    content: "";
+    position: absolute;
+    background-color: #aeade9;
+    height: 3px;
+    width: 0;
+    left:0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+#home-contact a:hover{
+    color: #aeade9;
+}
+#home-contact a:hover::after{
+    width: 100%;
+}
 /* ----------------------------------about------------------------- */
 
 #about{
