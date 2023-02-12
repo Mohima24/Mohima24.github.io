@@ -50,7 +50,7 @@ body{
     bottom: -5px;
     transition: 0.3s;
 }
-.left-menu a:hover{
+.left-menu a:hover ,#resume-button-1:hover{
     color: #aeade9;
 }
 .left-menu a:hover::after{
