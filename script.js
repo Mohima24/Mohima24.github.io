@@ -56,3 +56,11 @@ var TxtType = function (el, toRotate, period) {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
   };
+
+  // resume ------------- function resumeTab1() 
+//   {
+//   window.open(
+//     "https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing",
+//     "_blank"
+//   );
+// }
