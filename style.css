@@ -59,6 +59,15 @@ body{
 #hamburger{
     display: none;
 }
+#resume-button-1{
+    background-color:rgba(61, 65, 89, 0.5);
+    color: #8a88fa;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 5px 8px;
+    border-radius: 7px;
+}
 /* -------------------home---------------------- */
 #home{
     height: 76vh;

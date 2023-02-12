@@ -58,9 +58,9 @@ var TxtType = function (el, toRotate, period) {
   };
 
   // resume ------------- function resumeTab1() 
-//   {
-//   window.open(
-//     "https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing",
-//     "_blank"
-//   );
-// }
+  function resumeTab1() {
+  window.open(
+    "https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing",
+    "_blank"
+  );
+}
