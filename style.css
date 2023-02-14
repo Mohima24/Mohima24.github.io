@@ -186,6 +186,54 @@ body{
     height: 50%;
 }
 
+/* -------------------contact -------------------- */
+#contact{
+    width: 80%;
+    margin:3% auto;
+    text-align: center;
+    color: white;
+}
+#contact>div{
+margin-top: 5%;
+}
+.contact-info{
+    font-size:  3rem;
+}
+.github{
+    margin: 0% 25%;
+}
+#contact-info{
+    display: flex;
+    justify-content: center;
+    margin:3% 0%;
+    font-size: 1.3em;
+}
+#contact-info>a{
+    padding: 0 1%;
+}
+/* ----------------------------------project------------------ */
+#projects{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 8%;
+    color:white;
+}
+#projects>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap:8vh;
+    column-gap: 2vh;
+}
+.project-card{
+    width: 45%;
+    color: #8a88fa;
+}
+.project-card img{
+    width: 100%;
+}
+/* --------------------------media------------------ */
 
 
 @media screen and (min-width:700px) and (max-width:1000px){
