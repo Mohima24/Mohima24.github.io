@@ -59,16 +59,13 @@ var TxtType = function (el, toRotate, period) {
 
   // resume ------------- function resumeTab1() 
 function resumeTab1() {
-  window.open(
-    "https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing",
-    "_blank"
-  );
+  window.location.href=
+    "https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing"
+  ;
 }
 
 function resumeTab2() {
-  window.open(
-    "https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing",
-    "_blank"
-  );
+  window.location.href=
+    "https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing"
 }
 
