@@ -59,13 +59,13 @@ var TxtType = function (el, toRotate, period) {
 
   // resume ------------- function resumeTab1() 
 function resumeTab1() {
-  window.location.href=
+  window.location.assign=
     "https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing"
   ;
 }
 
 function resumeTab2() {
-  window.location.href=
+  window.location.assign=
     "https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing"
 }
 
