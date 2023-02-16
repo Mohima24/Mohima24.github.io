@@ -3,9 +3,12 @@
     margin: 0;
     font-family:  Arial, sans-serif;
 }
+/* h2{
+    font-size: .5rem
+} */
 a{
     text-decoration: none;
-    color: #8a88fa;
+    color: #7f3ace;
 }
 button{
     cursor: pointer;
@@ -14,7 +17,7 @@ body{
     background-color: #191f2a;
 }
 #nav-menu{
-    color: #8a88fa;
+    color: #7f3ace;
     margin: auto;
     font-size: 1.3rem;
     font-weight: 400;
@@ -43,7 +46,7 @@ body{
 .left-menu a::after{
     content: "";
     position: absolute;
-    background-color: #aeade9;
+    background-color: #7f3ace;
     height: 3px;
     width: 0;
     left:0;
@@ -51,7 +54,7 @@ body{
     transition: 0.3s;
 }
 .left-menu a:hover ,#resume-button-1:hover{
-    color: #aeade9;
+    color: #7f3ace;
 }
 .left-menu a:hover::after{
     width: 100%;
@@ -61,7 +64,7 @@ body{
 }
 #resume-button-1,#resume-button-2{
     background-color:rgba(61, 65, 89, 0.5);
-    color: #8a88fa;
+    color: #7f3ace;
     border: none;
     font-size: 1.3rem;
     font-weight: 400;
@@ -76,14 +79,14 @@ body{
     margin:auto;
     margin-top: 12%;
     text-align: center;
-    color: #8e8ddf;
+    color: #7f3ace;
 }
 #home h1{
-    color: #9796fc;
+    color: #7f3ace;
     font-size: 3.5rem;
 }
 #home h2{
-    color: #9796fc;
+    color: #7f3ace;
     margin: 8vh 0;
 }
 #home p{
@@ -102,7 +105,7 @@ body{
 #home-contact a::after{
     content: "";
     position: absolute;
-    background-color: #aeade9;
+    background-color: #7f3ace;
     height: 3px;
     width: 0;
     left:0;
@@ -110,7 +113,7 @@ body{
     transition: 0.3s;
 }
 #home-contact a:hover{
-    color: #aeade9;
+    color: #7f3ace;
 }
 #home-contact a:hover::after{
     width: 100%;
@@ -229,13 +232,16 @@ margin-top: 5%;
 }
 .project-card{
     width: 45%;
-    color: #8a88fa;
+    color: #6464ff;
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
+    border: 5px solid #7f3ace;
     /* font-weight: 500; */
 }
 .project-card img{
     width: 100%;
+    /* border-radius: 10px */
 }
 .project-card>div{
     width: 100%;
@@ -273,6 +279,27 @@ margin-top: 5%;
 .project-card>div>.project-tech-stack{
     margin-bottom: 5%;
     padding: 0 3%;
+}
+
+/* ---------------github streak---------------- */
+
+#git-stats{
+    text-align: center;
+    color: white;
+    margin:10% 0;
+}
+#git-stats h2{
+    font-size: 2.5rem;
+    margin-bottom: 3%;
+}
+#git-streak{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+#git-streak img{
+    width: 100%;
+    margin-bottom: 2%;
 }
 /* --------------------------media------------------ */
 

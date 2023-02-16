@@ -64,7 +64,12 @@ function resumeTab1() {
   ;
 }
 
-function resumeTab2() {
-  window.location.assign("https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing")
-}
+// function resumeTab2() {
+//   window.location.assign("https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing")
+// }
 
+let resumeTab2 =document.getElementById("resume-button-2").addEventListener("click",()=>{
+  window.location.assign("https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing")
+})
+
+// onclick="resumeTab2()"
