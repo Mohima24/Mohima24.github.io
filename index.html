@@ -13,6 +13,7 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 </head>
 
 <body>
@@ -259,15 +260,14 @@
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
 <script>
+    
+GitHubCalendar(".calendar", "Mohima24", {
+        proxy(username) {
+            return fetch(`https://your-proxy.com/github?user=${username}`)
+        }
+    ,global_stats: false,responsive: true}
+)
 
-// GitHubCalendar(".calendar", "Mohima24", { responsive: true });
-
-// // Use a proxy
-// GitHubCalendar(".calendar", "Mohima24", {
-//     proxy(username) {
-//         return fetch(`https://your-proxy.com/github?user=${username}`)
-//     }
-// })
 </script>
 
 <!-- 
