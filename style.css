@@ -29,7 +29,9 @@ body{
     left:0;
     right: 0;
     justify-content: space-between;
+    justify-items: center;
     align-items: center;
+    align-content: center;
     background-color:rgba(61, 65, 89, 0.5);
     padding: 3vh 12vh;
 }
@@ -37,6 +39,9 @@ body{
 .left-menu{
     width: 50%;
     display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
     justify-content: space-around;
 }
 .left-menu a{
@@ -130,7 +135,7 @@ body{
     background-image:linear-gradient(#4f4f83, rgb(105, 81, 129));
 }
 .section h2{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 #about>div{
     display: flex;
@@ -288,10 +293,6 @@ margin-top: 5%;
     color: white;
     margin:10% 0;
 }
-#git-stats h2{
-    font-size: 2.5rem;
-    margin-bottom: 3%;
-}
 #git-streak{
     width: 40%;
     margin: auto;
@@ -302,101 +303,103 @@ margin-top: 5%;
     margin-bottom: 2%;
 }
 /* --------------------------media------------------ */
+/* .left-menu{
+    display: none;
+}
+#hamburger{
+    display: contents;
+} */
 
-
-@media screen and (min-width:700px) and (max-width:1000px){
-    #nav-menu{
-        font-size: 1.2rem;
-        justify-content: space-between;
-    }
+@media screen and (min-width:776px) and (max-width:1115px){
     .left-menu{
         width: 70%;
     }
-    .left-menu a{
-        padding: 5px 8px;
+    #home h1{
+        font-size: 2rem;
     }
-    #about{
-        padding: 20vh 0;
+    #home h2{
+        margin: 5vh 0;
+    }
+    #about>div{
+        justify-content: space-around;
+    }
+    #about>div>div:nth-child(1){
+        width: 30%;
     }
     #about>div>div:nth-child(2){
+        font-size: 1rem;
         text-align: left;
         width: 50%;
-        font-weight: 600;
-        font-size: 1.1rem;
-        color: white;
+    }
+    #skills>div{
+        justify-content: space-evenly;
+        gap: 5%;
     }
     #skills>div>div{
         width: 30%;
+        margin-top: 8%;
+    }
+    #git-streak{
+        width: 50%;
     }
 }
-@media screen and (min-width:701px) and (max-width:800px){
-    #nav-menu{
-        font-size: 18px;
-    }
-    .left-menu a{
-        padding: 5px 3px;
-    }
-}
-@media screen and (min-width:100px) and (max-width:700px) {
-    #nav-menu{
-        padding: 3vh 5vh;
+@media screen and (min-width:592px) and (max-width:776px){
+    h2{
+        font-size: 1.8rem;
     }
     #home h1{
-        color: #9796fc;
-        font-size: 1.5rem;
+        font-size: 2.3rem;
+    }
+    #home h2{
+        margin: 8vh 0;
+    }
+    #nav-menu{
+        font-size: 1rem;
+        justify-content: space-evenly;
+        padding: 3vh 3vh;
+    }
+    #resume-button-1{
+        font-size: 1rem;
     }
     .left-menu{
-        display: none;
+        width: 75%;
     }
-    #hamburger{
-        display: contents;
-    }
-    #skills{
-        padding: 20vh 2vh;
-    }
-    #skills>div>div{
-        width: 80%;
-        padding-bottom: 5vh;
-        margin: 5%;
-    }
-    #about{
-        padding: 15vh 5vh;
-    }
-    #about>div{
-        display: contents;
-    }
-    #about>div>div:nth-child(1){
-        width: 60%;
-    }
-    #about>div>div img{
-        width: 100%;
-    }
-    #about>div>div:nth-child(2){
-        width: 100%;
-        font-size: 16px;
-        font-weight: normal;
-    }
-}
-@media screen and (min-width:500px) and (max-width:700px){
-    #home h1{
-        color: #9796fc;
-        font-size: 2rem;
+    .left-menu a{
+        position: relative;
+        padding: 5px 3px;
     }
     #about{
         padding: 20vh 5vh;
     }
     #about>div{
-        display: flex;
-        justify-content: space-between;
+        display: contents;
+        margin: auto;
     }
     #about>div>div:nth-child(1){
-        width: 40%;
+        text-align: center;
+        margin:4% auto;
+        width: 50%;
+    }
+    #about>div>div:nth-child(1) img{
+        width: 80%;
     }
     #about>div>div:nth-child(2){
-        text-align: left;
-        width:50%;
-        font-weight:normal;
-        font-size: 14px;
-        color: white;
+        width: 80%;
+        margin: auto;
+        font-size: 16px;
+    }
+    #skills>div{
+        justify-content: space-evenly;
+        gap: 5%;
+    }
+    #skills>div>div{
+        width: 35%;
+        margin-top: 8%;
+    }
+    #git-streak{
+        width: 50%;
+    } 
+    .project-card{
+        width: 80%;
     }
 }
