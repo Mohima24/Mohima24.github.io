@@ -73,3 +73,15 @@ function resumeTab2() {
 // })
 
 // onclick="resumeTab2()"
+
+
+// const hammenu = document.getElementById("hamburger")
+// const navmeny = document.getElementById("navmeny")
+
+// hammenu.addEventListener("click",()=>{
+  // if(navmeny.style.display=="none"){
+  //   navmeny.style.display= "flex"
+  // }else{
+  //   navmeny.style.display= "none"
+  // }
+// })

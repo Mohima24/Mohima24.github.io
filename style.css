@@ -32,7 +32,7 @@ body{
     justify-items: center;
     align-items: center;
     align-content: center;
-    background-color:rgba(61, 65, 89, 0.5);
+    background-color: #191f2a;
     padding: 3vh 12vh;
 }
 
@@ -67,6 +67,23 @@ body{
 #hamburger{
     display: none;
 }
+#navmeny{
+    width: 70%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top:0;
+    margin-top:12vh;
+    z-index: 2;
+    color: white;
+    background-color: #1c2331;
+    list-style-type: none;
+}
+#navmeny li{
+    padding-left: 5vh;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
 #resume-button-1,#resume-button-2{
     background-color:rgba(61, 65, 89, 0.5);
     color: #7f3ace;
@@ -76,7 +93,10 @@ body{
     padding: 5px 8px;
     border-radius: 7px;
 }
-
+#navmeny li a, #navmeny li a #resume-button-1{
+    color: white;
+    font-size: 1.5rem;
+}
 /* -------------------home---------------------- */
 #home{
     height: 76vh;
@@ -222,11 +242,12 @@ margin-top: 5%;
 }
 /* ----------------------------------project------------------ */
 #projects{
-    width: 80%;
+    width: 100%;
     text-align: center;
     margin: auto;
     padding-top: 8%;
     color:white;
+    background-image:linear-gradient(#4f4f83, rgb(105, 81, 129));
 }
 #projects>div{
     display: flex;
@@ -242,7 +263,7 @@ margin-top: 5%;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-    border: 5px solid #7f3ace;
+    border: 5px solid #191f2a;
     /* font-weight: 500; */
 }
 .project-card img{
@@ -289,7 +310,6 @@ margin-top: 5%;
 #git-stats{
     text-align: center;
     color: white;
-    margin:10% 0;
 }
 #git-streak{
     width: 40%;
@@ -427,7 +447,7 @@ margin-top: 5%;
         display: none;
     }
     #hamburger{
-        display: contents;
+        display: flex;
     }
     #nav-menu{
         font-size: 1rem;
@@ -546,23 +566,26 @@ margin-top: 5%;
     #home{
         width: 80%;
         margin-top: 24%;
-        height: 64vh;
+        height: 68vh;
     }
     #home h1{
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
     #home h2{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         margin: 8vh 0;
     }
     #home p{
-        font-size: 1rem;
+        font-size: 0.9rem;
+    }
+    #home-contact{
+        margin-top: 5%;
     }
     .left-menu{
         display: none;
     }
     #hamburger{
-        display: contents;
+        display: flex;
     }
     #nav-menu{
         font-size: 1rem;
@@ -570,7 +593,7 @@ margin-top: 5%;
         padding: 3vh 3vh;
     }
     #about{
-        padding: 15vh 3vh;
+        padding: 5vh 3vh;
     }
     #about>div{
         display: contents;
@@ -591,7 +614,7 @@ margin-top: 5%;
         font-weight: 400;
     }
     #skills{
-        padding: 15vh 3vh;
+        padding: 5vh 3vh;
     }
     #skills>div{
         justify-content: space-evenly;
@@ -607,7 +630,7 @@ margin-top: 5%;
         border: 1px solid #7f3ace;
     }
     #git-streak{
-        width: 60%;
+        width: 80%;
     } 
     #contact{
         width: 80%;
@@ -639,13 +662,16 @@ margin-top: 5%;
     }
 
     #projects{
-        width: 85%;
+        width: 100%;
         text-align: center;
         margin: auto;
-        padding-top: 8%;
+        padding: 5vh 0vh;
         color:white;
+        /* background-color: linear-gradient(#4f4f83, rgb(105, 81, 129)); */
     }
     #projects>div{
+        width: 90%;
+        margin: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -683,5 +709,11 @@ margin-top: 5%;
         margin-bottom: 2%;
         font-size: 14px;
         line-height: 1;
+    }
+    #git-stats{
+        padding: 5vh 3vh;
+    }
+    #contact{
+        padding: 5vh 3vh;
     }
 }
