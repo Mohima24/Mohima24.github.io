@@ -78,6 +78,7 @@ body{
     color: white;
     background-color: #1c2331;
     list-style-type: none;
+    display: none;
 }
 #navmeny li{
     padding-left: 5vh;
