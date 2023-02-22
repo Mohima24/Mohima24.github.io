@@ -424,6 +424,7 @@ margin-top: 5%;
     }
 }
 
+
 @media screen and (min-width:448px) and (max-width:592px){
     #home{
         width: 80%;
@@ -520,10 +521,10 @@ margin-top: 5%;
         padding: 0 1%;
     }
     #projects{
-        width: 85%;
+        width: 100%;
         text-align: center;
         margin: auto;
-        padding-top: 8%;
+        padding: 15vh 0;
         color:white;
     }
     #projects>div{
@@ -566,6 +567,9 @@ margin-top: 5%;
         line-height: 1;
     }
 }
+
+
+
 @media screen and (min-width:338px) and (max-width:448px){
     #home{
         width: 80%;
