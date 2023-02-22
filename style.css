@@ -99,13 +99,11 @@ body{
 }
 /* -------------------home---------------------- */
 #home{
-    height: 76vh;
+    height: 70vh;
     width: 63%;
     margin:auto;
     margin-top: 12%;
     text-align: center;
-    color: #7f3ace;
-    border: 1px solid white;
 }
 #home h1{
     color: #7f3ace;
@@ -119,6 +117,7 @@ body{
     text-align: left;
     font-size: 1.1rem;
     font-weight: bold;
+    color: #7f3ace;
 }
 #home-contact{
     margin: 4% 0;
@@ -372,6 +371,9 @@ margin-top: 5%;
     h2{
         font-size: 1.8rem;
     }
+    #home{
+        height: 80vh;
+    }
     #home h1{
         font-size: 2.3rem;
     }
@@ -394,7 +396,7 @@ margin-top: 5%;
         padding: 5px 3px;
     }
     #about{
-        padding: 20vh 5vh;
+        padding: 7vh 5vh;
     }
     #about>div{
         display: contents;
@@ -412,6 +414,10 @@ margin-top: 5%;
         width: 80%;
         margin: auto;
         font-size: 16px;
+    }
+    #skills{
+        padding-top: 7vh;
+        padding-bottom: 7vh;
     }
     #skills>div{
         justify-content: space-evenly;
@@ -436,8 +442,7 @@ margin-top: 5%;
     #home{
         width: 80%;
         margin-top: 24%;
-        height: 60vh;
-        border:1px solid white;
+        height: 78vh;
     }
     #home-contact{
         margin-top: 5%;
@@ -468,7 +473,7 @@ margin-top: 5%;
         padding: 3vh 3vh;
     }
     #about{
-        padding: 15vh 3vh;
+        padding: 7vh 3vh;
     }
     #about>div{
         display: contents;
@@ -489,7 +494,7 @@ margin-top: 5%;
         font-weight: 600;
     }
     #skills{
-        padding: 15vh 5vh;
+        padding: 7vh 5vh;
     }
     #skills>div{
         justify-content: space-evenly;
@@ -532,7 +537,7 @@ margin-top: 5%;
         width: 100%;
         text-align: center;
         margin: auto;
-        padding: 15vh 0;
+        padding: 7vh 0;
         color:white;
     }
     #projects>div{
@@ -574,6 +579,12 @@ margin-top: 5%;
         font-size: 16px;
         line-height: 1;
     }
+    #git-stats{
+        padding: 5vh 5vh;
+    }
+    #contact{
+        padding: 5vh 3vh;
+    }
 }
 
 
@@ -583,7 +594,7 @@ margin-top: 5%;
         width: 80%;
         margin-top: 24%;
         /* height: 50vh; */
-        height: 50vh;
+        height: 64vh;
         padding-bottom: 3vh;
     }
     #home h1{
@@ -657,7 +668,7 @@ margin-top: 5%;
         color: white;
     }
     #contact>div{
-    margin-top: 5%;
+        margin-top: 5%;
     }
     .contact-info{
         font-size:  2rem;
