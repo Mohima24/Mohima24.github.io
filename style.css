@@ -71,14 +71,13 @@ body{
     width: 70%;
     height: 100vh;
     position: fixed;
-    right: 0;
+    right: -150%;
     top:0;
     margin-top:12vh;
     z-index: 2;
     color: white;
     background-color: #1c2331;
     list-style-type: none;
-    display: none;
 }
 #navmeny li{
     padding-left: 5vh;
@@ -352,7 +351,7 @@ margin-top: 5%;
     }
     #skills>div{
         justify-content: space-evenly;
-        gap: 5%;
+        row-gap: 5%;
     }
     #skills>div>div{
         width: 30%;
@@ -634,7 +633,7 @@ margin-top: 5%;
         width: 80%;
     } 
     #contact{
-        width: 80%;
+        width: 70%;
         margin:5% auto;
         text-align: center;
         color: white;

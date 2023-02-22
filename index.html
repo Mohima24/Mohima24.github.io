@@ -54,10 +54,11 @@
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contacts</a></li>
-        <li><a class="nav-link resume" id="resume-link-1" href="/Mohima-Bahadur-Resume.pdf" target="_blank"
-            download>
-            <button id="resume-button-1" onclick="resumeTab1()">Resume</button>
-        </a>
+        <li>
+            <a class="nav-link resume" id="resume-link-1" href="/Mohima-Bahadur-Resume.pdf" target="_blank"
+                download>
+                <button id="resume-button-1" onclick="resumeTab1()">Resume</button>
+            </a>
         </li>
     </ul>
     <main>
@@ -284,11 +285,7 @@ const hammenu = document.getElementById("hamburger")
 const navmeny = document.getElementById("navmeny")
 
 hammenu.addEventListener("click",()=>{
-  if(navmeny.style.display=="none"){
-    navmeny.style.display= "block"
-  }else{
-    navmeny.style.display= "none"
-  }
+    navmeny.style.right=0
 })
 </script>
 
