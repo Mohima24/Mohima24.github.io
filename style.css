@@ -570,11 +570,12 @@ margin-top: 5%;
 
 
 
-@media screen and (min-width:338px) and (max-width:448px){
+@media screen and (min-width:320px) and (max-width:448px){
     #home{
         width: 80%;
         margin-top: 24%;
-        height: 60vh;
+        /* height: 50vh; */
+        height: 40vh;
     }
     #home h1{
         font-size: 1.3rem;
