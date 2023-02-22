@@ -99,7 +99,7 @@ body{
 }
 /* -------------------home---------------------- */
 #home{
-    height: 76vh;
+    height: 72vh;
     width: 63%;
     margin:auto;
     margin-top: 12%;
@@ -148,7 +148,7 @@ body{
 #about{
     text-align: center;
     height: auto;
-    padding: 20vh 12vh;
+    padding: 7vh 12vh;
     color: white;
     background-color: #56558d;
     background-repeat: no-repeat;
@@ -183,7 +183,7 @@ body{
 #skills{
     text-align: center;
     height: auto;
-    padding: 20vh 12vh;
+    padding: 7vh 12vh;
     color: white;
     margin: auto;
 }
@@ -245,7 +245,7 @@ margin-top: 5%;
     width: 100%;
     text-align: center;
     margin: auto;
-    padding-top: 8%;
+    padding: 7vh 0;
     color:white;
     background-image:linear-gradient(#4f4f83, rgb(105, 81, 129));
 }
@@ -308,12 +308,18 @@ margin-top: 5%;
 /* ---------------github streak---------------- */
 
 #git-stats{
+    padding: 7vh 12vh;
     text-align: center;
     color: white;
+
+}
+#git-stats h2{
+    margin-bottom: 7vh;
 }
 #git-streak{
     width: 40%;
     margin: auto;
+    margin-top: 8vh;
     text-align: center;
 }
 #git-streak img{
@@ -665,9 +671,6 @@ margin-top: 5%;
     }
     .section h2{
         font-size: 1.3rem;
-    }
-    .calendar{
-        margin-top: 5%;
     }
 
     #projects{
