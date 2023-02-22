@@ -582,6 +582,7 @@ margin-top: 5%;
         margin-top: 24%;
         /* height: 50vh; */
         height: 50vh;
+        padding-bottom: 3vh;
     }
     #home h1{
         font-size: 1.3rem;
