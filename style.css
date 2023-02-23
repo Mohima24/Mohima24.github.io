@@ -172,7 +172,7 @@ body{
     border-radius: 20px;
 }
 #about>div>div:nth-child(2){
-    text-align: left;
+    text-align: justify;
     width: 40%;
     font-weight: 600;
     font-size: 1.1rem;
@@ -623,6 +623,7 @@ margin-top: 5%;
     }
     #about{
         padding: 5vh 3vh;
+        
     }
     #about>div{
         display: contents;
