@@ -65,7 +65,7 @@ function resumeTab1() {
 }
 
 function resumeTab2() {
-  window.location.assign(
+  location.assign(
     "https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing")
   ;
 }
