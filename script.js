@@ -64,11 +64,12 @@ function resumeTab1() {
   ;
 }
 
-function resumeTab2() {
-  location.assign(
-    "https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing")
-  ;
-}
+document.querySelector("#resume-link-2").addEventListener("click", () => {
+  window.open(
+    "https://drive.google.com/file/d/1OrNImyNk2xNE_vsnyQ4a8-c2Mq-uT0Xi/view",
+    "_blank"
+  );
+});
 
 // let resumeTab2 =document.getElementById("resume-button-2").addEventListener("click",()=>{
 //   window.location.assign("https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing")
