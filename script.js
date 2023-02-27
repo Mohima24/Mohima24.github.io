@@ -71,20 +71,21 @@ document.querySelector("#resume-link-2").addEventListener("click", () => {
   );
 });
 
-// let resumeTab2 =document.getElementById("resume-button-2").addEventListener("click",()=>{
-//   window.location.assign("https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing")
-// })
+document.getElementById("hamimg").addEventListener('click',()=>{
+  let x = document.querySelector("#navmeny")
+    if(x.style.display==="none"){
+      x.style.display="block"
+    }else{
+      x.style.display="none"
+    }
+})
 
-// onclick="resumeTab2()"
 
-
-// const hammenu = document.getElementById("hamburger")
-// const navmeny = document.getElementById("navmeny")
-
-// hammenu.addEventListener("click",()=>{
-  // if(navmeny.style.display=="none"){
-  //   navmeny.style.display= "flex"
-  // }else{
-  //   navmeny.style.display= "none"
-  // }
-// })
+// addEventListener("click", () => {
+//   let x = document.getElementById("navmeny");
+//   if (x.style.right === '-150%') {
+//     x.style.right === 0;
+//   } else {
+//     x.style.right === '-150%';
+//   }
+// });

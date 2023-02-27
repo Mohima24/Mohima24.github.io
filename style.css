@@ -71,13 +71,14 @@ body{
     width: 70%;
     height: 100vh;
     position: fixed;
-    right: -150%;
+    right: 0;
     top:0;
     margin-top:12vh;
     z-index: 2;
     color: white;
     background-color: #1c2331;
     list-style-type: none;
+    display: none;
 }
 #navmeny li{
     padding-left: 5vh;
@@ -616,10 +617,9 @@ margin-top: 5%;
     #hamburger{
         display: flex;
     }
-    #hamburger:hover~#navmeny{
-        right: 0;
-    }
-    /* #hamburger:hover: */
+    /* #navmeny{
+        display: block;
+    } */
     #nav-menu{
         font-size: 1rem;
         justify-content: space-between;
