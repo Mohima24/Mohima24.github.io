@@ -71,13 +71,16 @@ document.querySelector("#resume-link-2").addEventListener("click", () => {
   );
 });
 
+let flag =false
 document.getElementById("hamimg").addEventListener('click',()=>{
   let x = document.querySelector("#navmeny")
-    if(x.style.display==="none"){
-      x.style.display="block"
-    }else{
-      x.style.display="none"
-    }
+  if(flag==false){
+    x.style.display = "flex"
+    flag=true
+  }else{
+    x.style.display = "none";
+    flag=false
+  }
 })
 
 

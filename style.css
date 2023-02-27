@@ -79,7 +79,9 @@ body{
     background-color: #1c2331;
     list-style-type: none;
     display: none;
+    flex-direction: column;
 }
+
 #navmeny li{
     padding-left: 5vh;
     padding-bottom: 5%;
@@ -596,7 +598,7 @@ margin-top: 5%;
         margin-top: 24%;
         height: 48vh;
         padding-bottom: 3vh;
-        border: 1px solid white;
+        /* border: 1px solid white; */
     }
     #home h1{
         font-size: 1.3rem;
