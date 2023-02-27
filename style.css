@@ -616,6 +616,10 @@ margin-top: 5%;
     #hamburger{
         display: flex;
     }
+    #hamimg:hover~#navmeny{
+        right: 0;
+    }
+    /* #hamburger:hover: */
     #nav-menu{
         font-size: 1rem;
         justify-content: space-between;
