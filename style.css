@@ -71,14 +71,15 @@ body{
     width: 70%;
     height: 100vh;
     position: fixed;
-    right: 0;
+    right: -150%;
     top:0;
     margin-top:12vh;
     z-index: 2;
     color: white;
+    transition: 0.5s;
     background-color: #1c2331;
     list-style-type: none;
-    display: none;
+    /* display: none; */
     flex-direction: column;
 }
 

@@ -75,10 +75,10 @@ let flag =false
 document.getElementById("hamimg").addEventListener('click',()=>{
   let x = document.querySelector("#navmeny")
   if(flag==false){
-    x.style.display = "flex"
+    x.style.right = "0"
     flag=true
   }else{
-    x.style.display = "none";
+    x.style.right = "-150%";
     flag=false
   }
 })
