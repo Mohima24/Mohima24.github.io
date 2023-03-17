@@ -248,7 +248,9 @@
 
         <div id="git-stats" class="section">
             <h2>GITHUB STATS</h2>
-            <div class="calendar react-activity-calendar" style="min-height: 0px;"></div>
+            <!-- <div class="calendar react-activity-calendar" style="min-height: 0px;">
+            </div> -->
+            <div class=" calendar"></div>
             <div id="git-streak">
                 <img id="github-stats-card" src= "https://github-readme-stats.vercel.app/api?username=Mohima24&show_icons=true&theme=midnight-purple" /> <br>
                 <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohima24&layout=compact&theme=tokyonight&border_radius=10" /> <br>
@@ -288,13 +290,16 @@
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
 <script>
-    
-GitHubCalendar(".calendar", "Mohima24")
-GitHubCalendar(".calendar", "Mohima24", {
-        proxy(username) {
-            return fetch(`https://your-proxy.com/github?user=${username}`)
-        }
-    ,global_stats: false,responsive: true})
+
+GitHubCalendar(".calendar", "Mohima24");
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "Mohima24", { responsive: true });
+// Use a proxy
+// GitHubCalendar(".calendar", "abhishek1494k", {
+//   proxy(abhishek1494k) {
+//     return fetch(`https://your-proxy.com/github?user=${abhishek1494k}`);
+//   },
+// }).then((r) => r.text());
 
 </script>
 

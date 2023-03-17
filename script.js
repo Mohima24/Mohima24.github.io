@@ -71,17 +71,17 @@ document.querySelector("#resume-link-2").addEventListener("click", () => {
   );
 });
 
-let flag =false
-document.getElementById("hamimg").addEventListener('click',()=>{
-  let x = document.querySelector("#navmeny")
-  if(flag==false){
-    x.style.right = "0"
-    flag=true
-  }else{
-    x.style.right = "-150%";
-    flag=false
-  }
-})
+// let flag =false
+// document.getElementById("hamimg").addEventListener('click',()=>{
+//   let x = document.querySelector("#navmeny")
+//   if(flag==false){
+//     x.style.right = "0"
+//     flag=true
+//   }else{
+//     x.style.right = "-150%";
+//     flag=false
+//   }
+// })
 
 
 // addEventListener("click", () => {
