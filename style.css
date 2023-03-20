@@ -290,6 +290,10 @@ margin-top: 5%;
     bottom: 0;
     /* border: 9px solid #9a9aef; */
 }
+.project-card>div>h2{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
 .project-card>div>a{
     background-color: rgba(255, 255, 255, 0.461);
     color: #3c3cfb;
