@@ -300,6 +300,17 @@ GitHubCalendar(".calendar", "Mohima24", { responsive: true });
 //     return fetch(`https://your-proxy.com/github?user=${abhishek1494k}`);
 //   },
 // }).then((r) => r.text());
+let hello =false
+document.getElementById("hamimg").addEventListener('click',()=>{
+  let x = document.querySelector("#navmeny")
+  if(hello==false){
+    x.style.right = "0"
+    hello=true
+  }else{
+    x.style.right = "-150%";
+    hello=false
+  }
+})
 
 </script>
 
