@@ -34,7 +34,8 @@ body{
     justify-items: center;
     align-items: center;
     align-content: center;
-    background-color: #091b29f3;
+    background-color: #091b29;
+    box-shadow: rgba(22,143,198,0.9) 0px 10px 10px -10px;
     padding: 3vh 12vh;
 }
 #nav-menu a{
@@ -94,8 +95,8 @@ body{
     padding-top: 5%;
 }
 #resume-button-1,#resume-button-2{
-    background-color:rgba(61, 65, 89, 0.5);
-    color: #7f3ace;
+    background-color:#00aef0;
+    color: white;
     border: none;
     font-size: 1.3rem;
     font-weight: 400;
@@ -206,7 +207,7 @@ body{
     gap:10%;
 }
 #skills>div>div{
-    width: 20%;
+    width: 10%;
     margin-top: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
