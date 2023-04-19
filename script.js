@@ -60,13 +60,13 @@ var TxtType = function (el, toRotate, period) {
   // resume ------------- function resumeTab1() 
 function resumeTab1() {
   window.location.assign(
-    "https://drive.google.com/drive/folders/1_hxUi0ODJDkLokBvpF4pEFndVft60u26")
+    "https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing")
   ;
 }
 
 document.querySelector("#resume-link-2").addEventListener("click", () => {
   window.open(
-    "https://drive.google.com/drive/folders/1_hxUi0ODJDkLokBvpF4pEFndVft60u26",
+    "https://drive.google.com/file/d/1lg_o9RilzQj_LzEZ9pTa7OIkwyOJGJ6-/view?usp=sharing",
     "_blank"
   );
 });
