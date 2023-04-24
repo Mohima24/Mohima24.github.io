@@ -70,13 +70,3 @@ document.querySelector("#resume-link-2").addEventListener("click", () => {
     "_blank"
   );
 });
-
-
-// addEventListener("click", () => {
-//   let x = document.getElementById("navmeny");
-//   if (x.style.right === '-150%') {
-//     x.style.right === 0;
-//   } else {
-//     x.style.right === '-150%';
-//   }
-// });

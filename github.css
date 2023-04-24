@@ -26,27 +26,17 @@ rect.ContributionCalendar-day[data-level='4'] {
     fill: var(--color-calendar-graph-day-L4-bg);
 }
 
-* {
-    color: white;
-}
-
-.calendar .width-full>.float-left {
+.calendar .width-full > .float-left {
     display: none;
 }
 
 .calendar {
-    font-family: 'Poppins', sans-serif;
-    border-radius: 6px;
+    font-family: Helvetica, arial;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
     min-height: 243px;
     text-align: center;
-    width: 100%;
     margin: 0 auto;
-    padding: 1.5rem;
-    transition: 0.75s all ease;
-}
-
-.calendar:hover {
-    cursor: pointer;
 }
 
 .calendar-graph text.wday,
@@ -99,8 +89,6 @@ rect.ContributionCalendar-day[data-level='4'] {
     border-left: 0;
 }
 
-
-
 .table-column {
     display: table-cell;
     width: 1%;
@@ -114,7 +102,7 @@ rect.ContributionCalendar-day[data-level='4'] {
     line-height: 1.3em;
     font-size: 24px;
     display: block;
-    color: teal;
+    color: #333;
 }
 
 .calendar img.spinner {
@@ -148,12 +136,10 @@ rect.ContributionCalendar-day[data-level='4'] {
     margin-left: 9px;
     color: #767676;
 }
-
 .left.text-muted a {
     color: #4078c0;
     text-decoration: none;
 }
-
 .left.text-muted a:hover,
 .monospace a:hover {
     text-decoration: underline;
@@ -166,9 +152,8 @@ h2.f4.text-normal.mb-3 {
 .float-left.text-gray {
     float: left;
 }
-
-#user-activity-overview {
-    display: none;
+#user-activity-overview{
+    display:none;
 }
 
 .day-tooltip {
@@ -179,20 +164,17 @@ h2.f4.text-normal.mb-3 {
     font-size: 12px;
     color: #959da5;
     text-align: center;
-    background: rgba(0, 0, 0, .85);
+    background: rgba(0,0,0,.85);
     border-radius: 3px;
     display: none;
     pointer-events: none;
 }
-
 .day-tooltip strong {
     color: #dfe2e5;
 }
-
 .day-tooltip.is-visible {
     display: block;
 }
-
 .day-tooltip:after {
     position: absolute;
     bottom: -10px;
@@ -203,36 +185,10 @@ h2.f4.text-normal.mb-3 {
     margin: 0 0 0 -5px;
     content: " ";
     border: 5px solid transparent;
-    border-top-color: rgba(0, 0, 0, .85)
+    border-top-color: rgba(0,0,0,.85)
 }
 
 text.ContributionCalendar-label {
     fill: #ccc;
-    font-size: 9px;
-}
-
-@media screen and (max-width: 1024px) {
-    .calendar {
-        width: 95%;
-        min-height: 150px;
-        padding: 10px;
-    }
-
-    .text-small,
-    .text-muted {
-        font-size: 7px;
-    }
-
-    .contrib-number {
-        font-size: 14px;
-    }
-
-    .float-right {
-        font-size: 8px;
-    }
-
-    .d-inline-block {
-        width: 5px;
-        height: 5px;
-    }
+    font-size: 11px;
 }
