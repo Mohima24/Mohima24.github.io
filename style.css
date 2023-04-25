@@ -113,6 +113,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 3;
     background-color: #091b29;
 }
 /* -------------------home---------------------- */
@@ -275,10 +276,11 @@ body{
     color: white;
 }
 #contact>div{
-margin-top: 5%;
+    margin-top: 5%;
 }
 .contact-info{
     font-size:  3rem;
+    color: #04f4f2;
 }
 .github{
     margin: 0% 25%;
@@ -294,74 +296,117 @@ margin-top: 5%;
 }
 /* ----------------------------------project------------------ */
 #projects{
-    width: 100%;
     text-align: center;
     margin: auto;
-    padding: 7vh 0;
+    padding: 9vh 12vh;
     color:white;
     background-color:#072332;
 }
 #projects>div{
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    row-gap:8vh;
-    column-gap: 2vh;
-    margin-top: 5%;
+    flex-direction: column;
+    margin: 5% 0;
 }
 .project-card{
-    width: 45%;
-    color: #6464ff;
+    height: 45vh;
+    margin: 3% 0%;
     position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    border: 5px solid #191f2a;
-    /* font-weight: 500; */
 }
-.project-card img{
-    width: 100%;
-    height: 100%;
-    /* border-radius: 10px */
-}
-.project-card>div{
-    width: 100%;
-    color: white;
-    background-color:rgba(0, 0, 0, 0.6) ;
+.positionRightimg{
+    width: 50%;
     position: absolute;
-    bottom: -100%;
-    left: 0;
-    height: 100%;
-    box-sizing: border-box;
-    transition: all 0.5s;
-    padding: 2%;
+    left: 120px;
+    z-index: 1;
 }
-.project-card:hover >div{
-    cursor: pointer;
-    bottom: 0;
+.positionleftImg{
+    width: 50%;
+    position: absolute;
+    right: 120px;
+    z-index: 1;
 }
-.project-card>div>h2{
-    margin-top: 5%;
-    margin-bottom: 3%;
+.positionLefttext{
+    width: 35%;
+    position: absolute;
+    right: 120px;
+    color: #96a1c1;
+    text-align: right;
+    z-index: 2;
 }
-.project-card>div>a{
-    background-color: rgba(255, 255, 255, 0.461);
-    color: #3c3cfb;
-    padding: 12px 12px;
-    border-radius: 10px;
+.positionRighttext{
+    width: 35%;
+    position: absolute;
+    left: 120px;
+    color: #96a1c1;
+    text-align: left;
+    z-index: 2;
 }
-.project-card>div>a:hover{
-    background-color: white;
+.positionRighttext>div{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 7%;
+    border-radius: 5px;
+    margin: 5% 0;
+    font-size: 0.9rem;
+}
+.positionLefttext a, .positionRighttext a{
+    color: #b8c4e7;
+    padding-right: 10px;
+    font-size: 1.5rem;
+}
+#projects a:hover{
+    color: #04f4f2;
+}
+.positionLefttext>div{
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 7%;
+    border-radius: 5px;
+    margin: 5% 0;
+    font-size: 0.9rem;
+}
+.project-title{
+    margin:2% 0;
+}
+.positionRighttext>.project-tech-stack{
+    padding-bottom: 3%;
+    padding-right: 5%;
+}
+.positionLefttext>.project-tech-stack{
+    text-align: right;
+    font-size: 0.8rem;
+    padding-bottom: 3%;
+    padding-right: 5%;
 }
 
-.project-card>div>p{
-    margin-bottom: 2%;
-    line-height: 1;
+.project-tech-stack>span{
+    font-size: 0.8rem;
+    padding-left: 10px;
+    color: #5492a7;
 }
-.project-card>div>.project-tech-stack{
-    margin-bottom: 5%;
-    padding: 0 3%;
+.ptype{
+    padding-top: 3%;
+    color: #04f4f2;
+    font-size: 0.8rem;
 }
-
+.positionRighttext>p{
+    text-align: left;
+    font-size: 0.8rem;
+    color: #04f4f2;
+}
+.positionLefttext>p{
+    text-align: right;
+    font-size: 0.8rem;
+    color: #04f4f2;
+}
+.positionLefttext>h2{
+    text-align: right;
+}
+#projects>div>div>div>h2{
+    color: white;
+    font-size: 1rem;
+    
+}
 /* ---------------github streak---------------- */
 
 #git-stats{
