@@ -763,18 +763,22 @@ body{
     }
 
     #home{
-        padding: 5vh 5vh;
-            
+        padding: 5vh 7vh;
+        text-align: left;
     }
     #home>h1{
-        font-size: 1.5rem;
+        text-align: left;
+        font-size: 3rem;
         margin-top: 3%;
+        font-weight: 600;
+        line-height: 1.2;
     }
 
     #home>p:nth-child(4){
-        padding: 0 1%;
+        padding: 0 0%;
         margin: 8% 0%;
-        font-size: 0.9rem;
+        font-size: 1rem;
+        text-align: left;
     }
     #resume-button-2{
         padding: 5px 20px;
@@ -787,12 +791,12 @@ body{
         z-index: 2px;
     }
     #home>h2{
-        font-size: 1rem;
-        margin: 4% 0;
+        font-size: 1.2rem;
+        margin: 12% 0;
     }
     #home>p:first-child{
         margin-top: 7%;
-        font-size: 0.9rem;
+        font-size: 2rem;
     }
     #about>div{
         padding: 0 3vh;
@@ -814,7 +818,44 @@ body{
         padding-top: 6%;
     }
 }
+@media screen and (min-width:300px) and (max-width:375px){
+    #home{
+        padding: 5vh 2vh;
+        text-align: left;
+    }
+    #home>h1{
+        text-align: left;
+        font-size: 3rem;
+        margin-top: 3%;
+        font-weight: 600;
+        line-height: 1.2;
+    }
 
+    #home>p:nth-child(4){
+        padding: 0 0%;
+        margin: 8% 0%;
+        font-size: 1rem;
+        text-align: left;
+    }
+    #resume-button-2{
+        padding: 5px 20px;
+    }
+    #home-contact>a{
+        margin: 7.8px 3px;
+    }
+    #home-contact{
+        margin: 7% 0;
+        z-index: 2px;
+    }
+    #home>h2{
+        font-size: 1rem;
+        margin: 12% 0;
+    }
+    #home>p:first-child{
+        margin-top: 7%;
+        font-size: 2rem;
+    }
+}
 @media screen and (min-width:900px) and (max-width:1000px){
     #nav-menu{
         padding: 0.6vh 12vh 0.2vh;
