@@ -801,7 +801,7 @@ body{
         align-items: center;
     }
     #about{
-        padding: 5vh 0;
+        padding: 0vh 0;
     }
     #about>div>div:nth-child(1){
         width: 36%;
