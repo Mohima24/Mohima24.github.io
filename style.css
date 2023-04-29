@@ -954,6 +954,115 @@ body{
     #git-stats{
         padding: 7vh 3vh;
     }
+    #projects{
+        padding: 9vh 3vh;
+    }
+    #projects>div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 5% 0;
+    }
+    .project-card{
+        height: 47vh;
+    }
+    .positionRightimg{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 1;
+    }
+    .positionleftImg{
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+    }
+    .positionLefttext{
+        width: 97%;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 2%;
+    }
+    .positionRighttext{
+        width: 97%;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 2%;
+    }
+    .positionRighttext>div{
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 3%;
+        border-radius: 5px;
+        margin: 5% 0;
+        font-size: 0.9rem;
+    }
+    .positionLefttext a, .positionRighttext a{
+        color: #b8c4e7;
+        padding-right: 0px;
+        font-size: 1.5rem;
+    }
+    #projects a:hover{
+        color: #04f4f2;
+    }
+    .positionLefttext>div{
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 0%;
+        border-radius: 5px;
+        margin: 5% 0;
+        font-size: 0.9rem;
+    }
+    .project-title{
+        margin:2% 0;
+    }
+    .positionRighttext>.project-tech-stack{
+        padding-bottom: 3%;
+        padding-right: 0%;
+    }
+    .positionLefttext>.project-tech-stack{
+        text-align: center;
+        font-size: 0.8rem;
+        padding-bottom: 3%;
+        padding-right: 0%;
+    }
+    
+    .project-tech-stack>span{
+        font-size: 0.8rem;
+        padding-left: 10px;
+        color: #5492a7;
+    }
+    .ptype{
+        padding-top: 3%;
+        color: #04f4f2;
+        font-size: 0.8rem;
+    }
+    .positionRighttext>p{
+        text-align: center;
+        font-size: 0.8rem;
+        color: #04f4f2;
+    }
+    .positionLefttext>p{
+        text-align: center;
+        font-size: 0.8rem;
+        color: #04f4f2;
+    }
+    .positionLefttext>h2{
+        text-align: center;
+    }
+    #projects>div>div>div>h2{
+        color: white;
+        font-size: 1rem;
+        
+    }
 }
 @media screen and (min-width:300px) and (max-width:375px){
     #home{
