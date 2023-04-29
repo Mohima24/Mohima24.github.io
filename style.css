@@ -299,7 +299,7 @@ body{
     margin-top: 5%;
 }
 .contact-info{
-    font-size:  3rem;
+    font-size:  2.5rem;
     color: #04f4f2;
 }
 .github{
@@ -309,7 +309,7 @@ body{
     display: flex;
     justify-content: center;
     margin:3% 0%;
-    font-size: 1.3em;
+    font-size: 2rem;
 }
 #contact-info>a{
     padding: 0 1%;
@@ -439,7 +439,7 @@ body{
     margin-bottom: 7vh;
 }
 #git-streak{
-    width: 40%;
+    width: 50%;
     margin: auto;
     margin-top: 8vh;
     text-align: center;
@@ -474,6 +474,29 @@ body{
         width: 45%;
         padding: 1% 0%;
         font-size: 1.1rem;
+    }
+    #contact>div{
+        margin-top: 8%;
+    }
+    #contact .contact-info{
+        font-size:  2.8rem;
+        color: #04f4f2;
+    }
+    .github{
+        margin: 0% 25%;
+    }
+    #contact-info{
+        margin:9% 0%;
+        font-size: 1.9rem;
+    }
+    #contact-info>a{
+        padding: 0 1%;
+    }
+    #git-streak{
+        width: 59%;
+    }
+    #git-stats{
+        padding: 7vh 3vh;
     }
 
 }
@@ -511,6 +534,29 @@ body{
         width: 45%;
         padding: 1% 0%;
         font-size: 0.9rem;
+    }
+    #contact>div{
+        margin-top: 8%;
+    }
+    #contact .contact-info{
+        font-size:  2.4rem;
+        color: #04f4f2;
+    }
+    .github{
+        margin: 0% 25%;
+    }
+    #contact-info{
+        margin:9% 0%;
+        font-size: 1.9rem;
+    }
+    #contact-info>a{
+        padding: 0 1%;
+    }
+    #git-streak{
+        width: 59%;
+    }
+    #git-stats{
+        padding: 7vh 3vh;
     }
 
 }
@@ -574,6 +620,26 @@ body{
         padding: 1% 0%;
         font-size: 0.9rem;
     }
+    #contact>div{
+        margin-top: 8%;
+    }
+    #contact .contact-info{
+        font-size:  2rem;
+        color: #04f4f2;
+    }
+    .github{
+        margin: 0% 25%;
+    }
+    #contact-info{
+        margin:9% 0%;
+        font-size: 1.6rem;
+    }
+    #contact-info>a{
+        padding: 0 1%;
+    }
+    #git-streak{
+        width: 70%;
+    }
 }
 
 @media screen and (min-width:500px) and (max-width:600px){
@@ -636,6 +702,29 @@ body{
         width: 46%;
         padding: 1% 0%;
         font-size: 0.9rem;
+    }
+    #contact>div{
+        margin-top: 8%;
+    }
+    #contact .contact-info{
+        font-size:  2.5rem;
+        color: #04f4f2;
+    }
+    .github{
+        margin: 0% 25%;
+    }
+    #contact-info{
+        margin:9% 0%;
+        font-size: 1.3em;
+    }
+    #contact-info>a{
+        padding: 0 1%;
+    }
+    #git-streak{
+        width: 90%;
+    }
+    #git-stats{
+        padding: 7vh 6vh;
     }
 }
 
@@ -723,6 +812,30 @@ body{
         font-size: 0.9rem;
         padding-top: 6%;
     }
+
+    #contact>div{
+        margin-top: 8%;
+    }
+    #contact .contact-info{
+        font-size:  2rem;
+        color: #04f4f2;
+    }
+    .github{
+        margin: 0% 25%;
+    }
+    #contact-info{
+        margin:9% 0%;
+        font-size: 1em;
+    }
+    #contact-info>a{
+        padding: 0 1%;
+    }
+    #git-streak{
+        width: 95%;
+    }
+    #git-stats{
+        padding: 7vh 6vh;
+    }
     
 }
 
@@ -752,14 +865,14 @@ body{
     #skills>div>div>div{
         gap: 5px;
         row-gap: 15px;
-        grid-template-columns: repeat(2,85px);
+        grid-template-columns: repeat(2,100px);
         justify-content: space-evenly;   
     }    
     .html{
         width: 46%;
     }
     #skills{
-        padding: 0 6vh;
+        padding: 0 3vh;
     }
 
     #home{
@@ -817,6 +930,30 @@ body{
         font-size: 0.8rem;
         padding-top: 6%;
     }
+
+    #contact>div{
+        margin-top: 8%;
+    }
+    #contact .contact-info{
+        font-size:  2rem;
+        color: #04f4f2;
+    }
+    .github{
+        margin: 0% 25%;
+    }
+    #contact-info{
+        margin:9% 0%;
+        font-size: 1em;
+    }
+    #contact-info>a{
+        padding: 0 1%;
+    }
+    #git-streak{
+        width: 95%;
+    }
+    #git-stats{
+        padding: 7vh 3vh;
+    }
 }
 @media screen and (min-width:300px) and (max-width:375px){
     #home{
@@ -872,4 +1009,14 @@ body{
     .html{
         width: 46%;
     }
+    #git-streak{
+        width: 60%;
+    }
 }
+
+/* #git-streak{
+    width: 59%;
+}
+#git-stats{
+    padding: 7vh 3vh;
+} */
